@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        Pathfinding
+    </div>
+    
+    <div>
+        <label for="xSize">xSize</label>
+        <input type="number" name="xSize"/>
+
+        <label for="ySize">ySize</label>
+        <input type="number" name="ySize"/>
+
+        <button onclick="createGrid()"> Submit </button>
+    </div>
+    <div class="grid-container">
+        <div class="tile">
+            <div class="cost gCost">
+                24
+            </div>
+            
+            <div class="cost hCost">
+                33
+            </div>
+    
+            <div class="cost fCost">
+                57
+            </div>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+:root
+{
+    --nodeColorOpen: green;
+    --nodeColorClosed: red;
+    
+    --bgColor: gray;
+}
+
+body
+{
+    background-color: var(--bgColor);
+}
+
+.grid-Container
+{
+    display:grid;
+    
+}
+
+.title
+{
+
+    font-size:3.5rem;
+    text-align: center;
+}
+.tile
+{
+    color: white;
+    background-color: var(--nodeColorOpen);
+    width:4rem;
+    height:4rem;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cost
+{
+    text-align: center;
+}
+.fCost
+{
+    grid-column: 1 / span 2;
+    font-size:2rem;
+}
